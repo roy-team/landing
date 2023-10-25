@@ -1,3 +1,70 @@
+@import 'shared/styles/variables/colors';
+
 .wrapper {
   display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+  gap: 40px;
+  margin-bottom: 60px;
+
+  @media only screen and (max-width: 1280px) {
+    flex-direction: column;
+  }
+}
+
+.image {
+  border-radius: 20px;
+  width: 100%;
+  max-width: 660px;
+  height: auto;
+}
+
+.textBlock {
+  display: flex;
+  flex-direction: column;
+  max-width: 471px;
+  gap: 15px;
+}
+
+.button {
+  width: 100%;
+}
+
+.primary {
+  color: $primary;
+}
+
+.title {
+  font-size: 90px;
+  font-weight: 800;
+  line-height: 73px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.text {
+  font-size: 35px;
+  font-weight: 500;
+  line-height: 40px;
+  letter-spacing: 0em;
+  text-align: left;
+  text-transform: none;
+}
+
+.decryption {
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.bold {
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 35px;
+  letter-spacing: 0em;
+  text-align: left;
 }

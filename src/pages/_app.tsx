@@ -6,7 +6,10 @@ import { Jost } from "next/font/google";
 import { appWithTranslation } from "next-i18next";
 import { GlobalLayout } from "widgets/GlobalLayout/GlobalLayout";
 
-const fonts = Jost({ subsets: ["latin", "cyrillic"], weight: ["400", "500"] });
+const fonts = Jost({
+  subsets: ["latin", "cyrillic"],
+  weight: ["300", "400", "500", "600"],
+});
 
 export type NextPageWithLayout<P = object, IP = P> = NextPage<P, IP> & {
   getLayout?: (page: ReactElement) => ReactNode;

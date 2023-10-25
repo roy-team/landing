@@ -1,0 +1,18 @@
+html,
+body {
+  margin: 0;
+  width: 100%;
+}
+
+body {
+  position: relative;
+}
+
+section {
+  flex-grow: 1;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}

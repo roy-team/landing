@@ -1,0 +1,56 @@
+@import '../../styles/variables/grid';
+@import '../../styles/variables/typography';
+@import '../../styles/variables/colors';
+@import '../../styles/variables/common';
+
+html {
+  font-style: normal;
+  font-weight: normal;
+  font-size: $font-size-mobile;
+  line-height: $line-height-mobile;
+  color: $black;
+}
+
+p {
+  margin: 0;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+span {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  margin: 0;
+
+  @media only screen and (max-width: 1024px) {
+    font-size: 16px;
+    line-height: 25px;
+  }
+}
+
+ul {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+
+  &.no-style {
+    list-style: none;
+  }
+}
+
+
+a {
+
+  &,
+  &:link,
+  &:visited {
+    color: $primary;
+    text-decoration: none;
+    display: inline-flex;
+  }
+}

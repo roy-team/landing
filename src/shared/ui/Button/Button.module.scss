@@ -6,36 +6,21 @@
   position: relative;
   justify-content: center;
   align-items: center;
-  padding: 4px 8px;
-  background-color: #ffffff;
+  padding: 5px;
   border-radius: $border-radius;
-  background-clip: padding-box;
   border: solid $border-size transparent;
   transition: all $animation-duration ease;
   user-select: none;
   text-transform: none;
+  cursor: pointer;
 
   & svg path {
     transition: all $animation-duration ease;
   }
 
-  &:before {
-    content: '';
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    z-index: -1;
-    margin: -$border-size;
-    border-radius: inherit;
-    background: $gradient-primary;
-    transition: all $animation-duration ease;
-  }
-
   &.primary {
     color: $white;
-    background-color: transparent;
+    background-color: $primary;
 
     &,
     svg path {
@@ -52,7 +37,8 @@
   //styles of light button
   &.light {
     color: $black;
-    background-color: $white;
+    border-color: $primary;
+    background-color: transparent;
 
     & svg path {
       stroke: $black;
@@ -61,10 +47,12 @@
     &:disabled {
       pointer-events: none;
       color: rgba(0, 0, 0, 0.2);
+    }
 
-      &:before {
-        opacity: 0.2;
-      }
+    &:hover {
+      color: $white;
+      background-color: $primary;
+      border-color: transparent;
     }
   }
 
@@ -73,10 +61,6 @@
     background-color: $red;
     color: white;
     border: $border-size solid $red;
-
-    &:before {
-      background: white;
-    }
 
     & svg path {
       stroke: $white;
@@ -99,34 +83,23 @@
   }
 
   &.text {
-    &:before {
-      opacity: 0;
-    }
+    background-color: transparent;
 
     &:hover {
-      background-color: white;
       color: $black;
 
       & svg path {
         stroke: $black;
       }
-
-      &:before {
-        opacity: 1;
-      }
     }
 
     &:active {
       background-color: rgba(255, 255, 255, 0.3);
-      border-color: rgba(255, 255, 255, 0.3);
+      border-color: transparent;
       color: $white;
 
       & svg path {
         stroke: $white;
-      }
-
-      &:before {
-        opacity: 1;
       }
     }
   }
@@ -144,29 +117,22 @@
 
   &:hover {
     background-color: transparent;
-    border-color: transparent;
-    color: $white;
+    border-color: $primary;
+    color: black;
 
     & svg path {
       stroke: $white;
     }
-
-    &:before {
-      opacity: 0.7;
-    }
   }
 
   &:active {
-    color: $black;
-    background-color: $white;
+    color: $white;
     border-color: transparent;
+    background-color: $primary;
+    opacity: 0.7;
 
     & svg path {
       stroke: $black;
-    }
-
-    &:before {
-      opacity: 1;
     }
   }
 

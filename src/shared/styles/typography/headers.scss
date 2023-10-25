@@ -1,0 +1,84 @@
+@import '../../styles/variables/grid';
+@import '../../styles/variables/typography';
+@import '../../styles/variables/colors';
+
+h1,
+.h1,
+h2,
+.h2,
+h3,
+.h3,
+h4,
+.h4,
+h5,
+.h5 {
+  font-style: normal;
+  text-align: left;
+  font-weight: 500;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+h1,
+.h1 {
+  font-size: 35px;
+  line-height: 33px;
+  color: $black;
+}
+
+h2,
+.h2 {
+  font-weight: 400;
+  font-size: 23px;
+  line-height: 30px;
+}
+
+h3,
+.h3 {
+  font-size: 18px;
+  line-height: 25px;
+}
+
+h4,
+.h4 {
+  font-size: 23px;
+  line-height: 27px;
+  font-weight: 400;
+  text-transform: none;
+}
+
+h5,
+.h5 {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  margin: 0;
+  text-transform: none;
+}
+
+.scope {
+  display: flex;
+  margin-bottom: 8vw;
+  padding-top: 0;
+  padding-bottom: 0;
+  box-sizing: border-box;
+
+  &__image {
+    flex: 1 1 auto;
+    padding: 0 1rem;
+    text-align: center;
+    box-sizing: border-box;
+
+    img {
+      width: auto;
+      max-height: 200px;
+    }
+  }
+
+  &__description {
+    flex: 0 1 auto;
+    padding: 0 1rem;
+    text-align: left;
+    box-sizing: border-box;
+  }
+}
