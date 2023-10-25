@@ -1,137 +1,59 @@
 {
   "pages": {
-    "community": "Społeczność",
-    "news": "Aktualności",
-    "blog": "Blog",
-    "chat": "Czat",
-    "calendar": "Kalendarz",
-    "about": "O nas",
-    "login": "Zaloguj się",
-    "registration": "Rejestracja",
-    "profile": "Profil",
-    "admin": "Administrator",
-    "security": "Bezpieczeństwo",
-    "settings": "Ustawienia",
     "notFound": "Strona nie znaleziona"
   },
-  "userBar": {
-    "notifications": "Powiadomienia",
-    "support": "Wsparcie techniczne",
-    "ssi": "Portfel SSI",
-    "create": "Utwórz"
+  "seo": {
+    "decryption": "eksperci w dziedzinie rozwiązań cyfrowych dla społeczności."
   },
-  "buttons": {
-    "logout": "Wyloguj",
-    "login": "Logowanie",
-    "registration": "Rejestracja",
-    "comeFirst": "Bądź pierwszym użytkownikiem",
-    "notification": "Powiadomienie",
-    "ssiWallet": "Portfel SSI",
-    "progress": "Postęp",
-    "close": "Zamknij",
-    "hide": "Ukryj",
-    "show": "Pokaż",
-    "create": "Utwórz",
-    "delete": "Usuń",
-    "cancel": "Anuluj",
-    "language": "Język",
-    "save": "Zapisz",
-    "slider": {
-      "next": "Następny slajd",
-      "prev": "Poprzedni slajd"
-    },
-    "next": "Dalej",
-    "back": "Wstecz",
-    "download": "Pobierz",
-    "forward": "Przejdź do przodu"
+  "main": {
+    "info": "- eksperci w dziedzinie rozwiązań cyfrowych dla społeczności.",
+    "contact": "Skontaktuj się z nami"
   },
-  "customWords": {
-    "or": "lub",
-    "search": "Szukaj",
-    "articles": "Artykułów",
-    "sections": "Sekcji",
-    "noMore": "nie ma więcej",
-    "notFound": "nie znaleziono",
-    "section": "Sekcja",
-    "materials": "Materiały",
-    "sectionsBlock": "Sekcje",
-    "blog": "Blog",
-    "eventLink": "Link do wydarzenia",
-    "googleCalendar": "Dodaj do kalendarza Google",
-    "copyLink": "Link skopiowany do schowka",
-    "share": "Udostępnij",
-    "mistake": "Znalazłeś błąd?",
-    "anonim": "Anonimowy"
-  },
-  "content": {
-    "match": {
-      "news": "Wiadomości",
-      "material": "Blog",
-      "event": "Wydarzenia",
-      "task": "Zadania",
-      "quiz": "Quizy",
-      "donate": "Zbiórki funduszy",
-      "advertisement": "Ogłoszenia",
-      "community": "Społeczności",
-      "vacancy": "Wakaty",
-      "section": "Sekcje",
-      "suggestion": "Propozycje",
-      "post": "Posty",
-      "article": "Artykuły"
-    },
-    "single": {
-      "news": "Wiadomość",
-      "material": "Blog",
-      "event": "Wydarzenie",
-      "task": "Zadanie",
-      "quiz": "Quiz",
-      "donate": "Zbiórka funduszy",
-      "advertisement": "Ogłoszenie",
-      "community": "Społeczność",
-      "vacancy": "Wakat",
-      "section": "Sekcja",
-      "suggestion": "Propozycja",
-      "post": "Post",
-      "article": "Artykuł"
+  "about": {
+    "we": "Grupa programistów, badaczy i ekspertów (Litwa)",
+    "values": {
+      "title": "Nasze wartości",
+      "decryption": "poszerzanie wpływu społeczności cyfrowych, bezpieczeństwo i ochrona danych osobowych."
     }
   },
-  "notifications": {
-    "title": "Powiadomienia",
-    "empty": "Brak powiadomień",
-    "closeAll": "Usuń wszystko"
+  "development": {
+    "title": "Usługi rozwojowe",
+    "items": [
+      "Platformy interakcji z społecznościami",
+      "Rozwiązania dla zdecentralizowanych społeczności (DAO, SSI, AI, blockchain)",
+      "Rozwój czatbotów w celu poszerzenia możliwości społeczności",
+      "Analityka efektywności i wpływu na społeczność"
+    ],
+    "order": "Zamówienie"
   },
-  "chat": {
-    "messages": {
-      "noMessages": "Brak wiadomości",
-      "first": "Napisz jako pierwszy!"
+  "banner": {
+    "decryption": "Unikalna sieć - platforma do rozwoju społeczności.",
+    "move": "Idź"
+  },
+  "training": {
+    "join": "Dołącz do społeczności menedżerów społeczności w ",
+    "telegram": "telegram",
+    "about": {
+      "title": "Ekspertyza i szkolenia",
+      "items": [
+        "Lata nauki tematu społeczności cyfrowych",
+        "JTBD z liderami i uczestnikami społeczności",
+        "Rada ds. cyberbezpieczeństwa i zarządzania społecznościami",
+        "Liderzy społeczności przeszli nasze szkolenia"
+      ]
     },
-    "getTitle": {
-      "default": "Czat",
-      "newMessages": "Nowe wiadomości:"
-    },
-    "allMembers": "Wszyscy uczestnicy",
-    "selectChat": "Wybierz rozmowę",
-    "noChats": "Nie masz żadnych rozmów",
-    "settings": {
-      "title": "Ustawienia",
-      "all": "Akceptuj od wszystkich",
-      "member": "Tylko od uczestników społeczności",
-      "admin": "Od administratora mojej społeczności",
-      "noOne": "Nie akceptuj od nikogo"
-    },
-    "defaultFileName": "Plik",
-    "input": {
-      "placeholder": "Wpisz wiadomość"
+    "services": {
+      "title": "Usługi szkoleniowe",
+      "items": [
+        "Seminarium dotyczące zarządzania społecznościami",
+        "Ekspertowe konsultacje",
+        "Programy certyfikacyjne",
+        "Zamówienie szkolenia"
+      ]
     }
   },
-  "calendar": {
-    "allDay": "Cały dzień",
-    "today": "Dzisiaj",
-    "month": "Miesiąc",
-    "week": "Tydzień",
-    "day": "Dzień",
-    "date": "Data",
-    "time": "Godzina",
-    "event": "Wydarzenie"
+  "contacts": {
+    "title": "Kontakty",
+    "request": "Zażądaj bezpłatnej konsultacji"
   }
 }

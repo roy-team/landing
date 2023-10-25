@@ -1,137 +1,59 @@
 {
   "pages": {
-    "community": "Bendruomenė",
-    "news": "Naujienos",
-    "blog": "Blogas",
-    "chat": "Pokalbis",
-    "calendar": "Kalendorius",
-    "about": "Apie mus",
-    "login": "Prisijungti",
-    "registration": "Registracija",
-    "profile": "Profilis",
-    "admin": "Administratorius",
-    "security": "Saugumas",
-    "settings": "Nustatymai",
     "notFound": "Puslapis nerastas"
   },
-  "userBar": {
-    "notifications": "Pranešimai",
-    "support": "Pagalba",
-    "ssi": "SSI piniginė",
-    "create": "Sukurti"
+  "seo": {
+    "decryption": "ekspertai skaitmeninių sprendimų srityje bendruomenėms."
   },
-  "buttons": {
-    "logout": "Atsijungti",
-    "login": "Prisijungti",
-    "registration": "Registracija",
-    "comeFirst": "Tapti pirmuoju naudotoju",
-    "notification": "Pranešimas",
-    "ssiWallet": "SSI piniginė",
-    "progress": "Pažanga",
-    "close": "Uždaryti",
-    "hide": "Slėpti",
-    "show": "Rodyti",
-    "create": "Sukurti",
-    "delete": "Ištrinti",
-    "cancel": "Atšaukti",
-    "language": "Kalba",
-    "save": "Išsaugoti",
-    "slider": {
-      "next": "Kitas skaidrė",
-      "prev": "Ankstesnė skaidrė"
-    },
-    "next": "Kitas",
-    "back": "Atgal",
-    "download": "Atsisiųsti",
-    "forward": "Pereiti"
+  "main": {
+    "info": "- ekspertai skaitmeninių sprendimų srityje bendruomenėms.",
+    "contact": "Susisiekite su mumis"
   },
-  "customWords": {
-    "or": "arba",
-    "search": "Paieška",
-    "articles": "Artykułów",
-    "sections": "Sekcji",
-    "noMore": "nie ma więcej",
-    "notFound": "nie znaleziono",
-    "section": "Sekcja",
-    "materials": "Materiały",
-    "sectionsBlock": "Sekcje",
-    "blog": "Blog",
-    "eventLink": "Link do wydarzenia",
-    "googleCalendar": "Dodaj do kalendarza Google",
-    "copyLink": "Link skopiowany do schowka",
-    "share": "Udostępnij",
-    "mistake": "Znalazłeś błąd?",
-    "anonim": "Anonimas"
-  },
-  "content": {
-    "match": {
-      "news": "Naujienos",
-      "material": "Tinklaraštis",
-      "event": "Renginiai",
-      "task": "Užduotys",
-      "quiz": "Apklausos",
-      "donate": "Paramos rinkimai",
-      "advertisement": "Skelbimai",
-      "community": "Bendruomenės",
-      "vacancy": "Darbo pasiūlymai",
-      "section": "Skyriai",
-      "suggestion": "Pasiūlymai",
-      "post": "Pranešimas",
-      "article": "Straipsnis"
-    },
-    "single": {
-      "news": "Naujiena",
-      "material": "Tinklaraštis",
-      "event": "Renginys",
-      "task": "Užduotis",
-      "quiz": "Apklausa",
-      "donate": "Paramos rinkimas",
-      "advertisement": "Skelbimas",
-      "community": "Bendruomenė",
-      "vacancy": "Darbo pasiūlymas",
-      "section": "Skyrius",
-      "suggestion": "Pasiūlymas",
-      "post": "Pranešimas",
-      "article": "Straipsnis"
+  "about": {
+    "we": "Kūrėjų, tyrėjų ir ekspertų grupė (Lietuva)",
+    "values": {
+      "title": "Mūsų vertybės",
+      "decryption": "skaitmeninių bendruomenių įtakos plėtra, asmens duomenų saugumas ir apsauga."
     }
   },
-  "notifications": {
-    "title": "Pranešimai",
-    "empty": "Pranešimų nėra",
-    "closeAll": "Ištrinti viską"
+  "development": {
+    "title": "Plėtros paslaugos",
+    "items": [
+      "Bendruomenių sąveikos platformos",
+      "Sprendimai decentralizuotoms bendruomenėms (DAO, SSI, AI, blockchain)",
+      "Pokalbių robotų kūrimas bendruomenių galimybių plėtrai",
+      "Bendruomenių efektyvumo ir poveikio analitika"
+    ],
+    "order": "Užsakyti"
   },
-  "chat": {
-    "messages": {
-      "noMessages": "Nėra žinučių",
-      "first": "Būkite pirmas rašant žinutę!"
+  "banner": {
+    "decryption": "Unikali tinklo platforma bendruomenių plėtrai.",
+    "move": "Eiti"
+  },
+  "training": {
+    "join": "Prisijunkite prie bendruomenių vadybininkų bendruomenės ",
+    "telegram": "telegram",
+    "about": {
+      "title": "Ekspertizė ir mokymai",
+      "items": [
+        "Metus išstudijome skaitmeninių bendruomenių temą",
+        "JTBD su bendruomenių lyderiais ir dalyviais",
+        "Taryba dėl kibernetinio saugumo ir bendruomenių valdymo",
+        "Bendruomenių lyderiai mokėsi pas mus"
+      ]
     },
-    "getTitle": {
-      "default": "Pokalbis",
-      "newMessages": "Naujų žinučių:"
-    },
-    "allMembers": "Visi nariai",
-    "selectChat": "Pasirinkite pokalbį",
-    "noChats": "Jūs neturite pokalbių",
-    "settings": {
-      "title": "Nustatymai",
-      "all": "Priimti visiems",
-      "member": "Tik iš bendruomenės narių",
-      "admin": "Iš mano bendruomenės administratoriaus",
-      "noOne": "Nepranešti niekam"
-    },
-    "defaultFileName": "Failas",
-    "input": {
-      "placeholder": "Įveskite žinutę"
+    "services": {
+      "title": "Mokymo paslaugos",
+      "items": [
+        "Seminarai bendruomenių valdymui",
+        "Ekspertinės konsultacijos",
+        "Sertifikavimo programos",
+        "Užsisakyti mokymus"
+      ]
     }
   },
-  "calendar": {
-    "allDay": "Visą dieną",
-    "today": "Šiandien",
-    "month": "Mėnuo",
-    "week": "Savaitė",
-    "day": "Diena",
-    "date": "Data",
-    "time": "Laikas",
-    "event": "Įvykis"
+  "contacts": {
+    "title": "Kontaktai",
+    "request": "Užklausite nemokamos konsultacijos"
   }
 }

@@ -1,0 +1,17 @@
+.wrapper {
+  display: flex;
+  flex-direction: column-reverse;
+  width: 90px;
+  text-transform: uppercase;
+  align-items: end;
+}
+
+.comdev {
+  display: flex;
+  font-size: large;
+  font-weight: 800;
+}
+
+.group {
+  display: flex;
+}
