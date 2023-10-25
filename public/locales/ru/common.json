@@ -1,0 +1,137 @@
+{
+  "pages": {
+    "community": "Сообщества",
+    "news": "Новости",
+    "blog": "Блог",
+    "chat": "Чат",
+    "calendar": "Календарь",
+    "about": "О нас",
+    "login": "Вход",
+    "registration": "Регистрация",
+    "profile": "Профиль",
+    "admin": "Администратор",
+    "security": "Безопасность",
+    "settings": "Настройки",
+    "notFound": "Страница не найдена"
+  },
+  "userBar": {
+    "notifications": "Уведомления",
+    "support": "Тех. поддержка",
+    "ssi": "SSI кошелёк",
+    "create": "Создать"
+  },
+  "buttons": {
+    "logout": "Выйти",
+    "login": "Вход",
+    "registration": "Регистрация",
+    "comeFirst": "Стать первым пользователем",
+    "notification": "Уведомление",
+    "ssiWallet": "SSI кошелек",
+    "progress": "Прогресс",
+    "close": "Закрыть",
+    "hide": "Скрыть",
+    "show": "Показать",
+    "create": "Создать",
+    "delete": "Удалить",
+    "cancel": "Отменить",
+    "language": "Язык",
+    "save": "Сохранить",
+    "slider": {
+      "next": "Следующий слайд",
+      "prev": "Предыдущий слайд"
+    },
+    "next": "Дальше",
+    "back": "Назад",
+    "download": "Загрузить",
+    "forward": "Перейти"
+  },
+  "customWords": {
+    "or": "или",
+    "search": "Поиск",
+    "articles": "Статей",
+    "sections": "Разделов",
+    "noMore": "больше нет",
+    "notFound": "не найдено",
+    "section": "Раздел",
+    "materials": "Материалы",
+    "sectionsBlock": "Разделы",
+    "blog": "Блог",
+    "eventLink": "Ссылка на мероприятие",
+    "googleCalendar": "Добавить в гугл календарь",
+    "copyLink": "Ссылка скопирована в буфер обмена",
+    "share": "Поделиться",
+    "mistake": "Нашли ошибку?",
+    "anonim": "Аноним"
+  },
+  "content": {
+    "match": {
+      "news": "Новости",
+      "material": "Блог",
+      "event": "Мероприятия",
+      "task": "Задачи",
+      "quiz": "Опросы",
+      "donate": "Сборы средств",
+      "advertisement": "Объявления",
+      "community": "Сообщества",
+      "vacancy": "Вакансии",
+      "section": "Разделы",
+      "suggestion": "Предложения",
+      "post": "Посты",
+      "article": "Статьи"
+    },
+    "single": {
+      "news": "Новость",
+      "material": "Блог",
+      "event": "Мероприятие",
+      "task": "Задача",
+      "quiz": "Опрос",
+      "donate": "Сбор средств",
+      "advertisement": "Объявление",
+      "community": "Сообщество",
+      "vacancy": "Вакансия",
+      "section": "Раздел",
+      "suggestion": "Предложение",
+      "post": "Пост",
+      "article": "Статья"
+    }
+  },
+  "notifications": {
+    "title": "Уведомления",
+    "empty": "Уведомлений нет",
+    "closeAll": "Удалить все"
+  },
+  "chat": {
+    "messages": {
+      "noMessages": "Сообщений нет",
+      "first": "Напишите первыми!"
+    },
+    "getTitle": {
+      "default": "Чат",
+      "newMessages": "Новых сообщений:"
+    },
+    "allMembers": "Все участники",
+    "selectChat": "Выберите диалог",
+    "noChats": "У вас нет диалогов",
+    "settings": {
+      "title": "Настройки",
+      "all": "Принимать от всех",
+      "member": "Только от участников сообщества",
+      "admin": "От администратора моего сообщества",
+      "noOne": "Не принимать ни от кого"
+    },
+    "defaultFileName": "Файл",
+    "input": {
+      "placeholder": "Введите сообщение"
+    }
+  },
+  "calendar": {
+    "allDay": "Весь день",
+    "today": "Сегодня",
+    "month": "Месяц",
+    "week": "Неделя",
+    "day": "День",
+    "date": "Дата",
+    "time": "Время",
+    "event": "Мероприятие"
+  }
+}

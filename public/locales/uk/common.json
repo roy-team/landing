@@ -1,0 +1,137 @@
+{
+  "pages": {
+    "community": "Спільнота",
+    "news": "Новини",
+    "blog": "Блог",
+    "chat": "Чат",
+    "calendar": "Календар",
+    "about": "Про нас",
+    "login": "Увійти",
+    "registration": "Реєстрація",
+    "profile": "Профіль",
+    "admin": "Адміністратор",
+    "security": "Безпека",
+    "settings": "Налаштування",
+    "notFound": "Сторінку не знайдено"
+  },
+  "userBar": {
+    "notifications": "Сповіщення",
+    "support": "Тех. підтримка",
+    "ssi": "SSI гаманець",
+    "create": "Створити"
+  },
+  "buttons": {
+    "logout": "Вийти",
+    "login": "Вхід",
+    "registration": "Реєстрація",
+    "comeFirst": "Стати першим користувачем",
+    "notification": "Сповіщення",
+    "ssiWallet": "SSI гаманець",
+    "progress": "Прогрес",
+    "close": "Закрити",
+    "hide": "Сховати",
+    "show": "Показати",
+    "create": "Створити",
+    "delete": "Видалити",
+    "cancel": "Скасувати",
+    "language": "Мова",
+    "save": "Зберегти",
+    "slider": {
+      "next": "Наступний слайд",
+      "prev": "Попередній слайд"
+    },
+    "next": "Далі",
+    "back": "Назад",
+    "download": "Завантажити",
+    "forward": "Перейти"
+  },
+  "customWords": {
+    "or": "або",
+    "search": "Пошук",
+    "articles": "Статті",
+    "sections": "Розділи",
+    "noMore": "Більше немає",
+    "notFound": "Не знайдено",
+    "section": "Розділ",
+    "materials": "Матеріали",
+    "sectionsBlock": "Розділи",
+    "blog": "Блог",
+    "eventLink": "Посилання на подію",
+    "googleCalendar": "Додати до Google Календаря",
+    "copyLink": "Посилання скопійоване в буфер обміну",
+    "share": "Поділитися",
+    "mistake": "Знайшли помилку?",
+    "anonim": "Анонімний"
+  },
+  "content": {
+    "match": {
+      "news": "Новінки",
+      "material": "Блог",
+      "event": "Події",
+      "task": "Завдання",
+      "quiz": "Опитування",
+      "donate": "Збір коштів",
+      "advertisement": "Оголошення",
+      "community": "Спільноти",
+      "vacancy": "Вакансії",
+      "section": "Розділи",
+      "suggestion": "Пропозиції",
+      "post": "Пости",
+      "article": "Статті"
+    },
+    "single": {
+      "news": "Новина",
+      "material": "Блог",
+      "event": "Подія",
+      "task": "Завдання",
+      "quiz": "Опитування",
+      "donate": "Збір коштів",
+      "advertisement": "Оголошення",
+      "community": "Спільнота",
+      "vacancy": "Вакансія",
+      "section": "Розділ",
+      "suggestion": "Пропозиція",
+      "post": "Пост",
+      "article": "Стаття"
+    }
+  },
+  "notifications": {
+    "title": "Сповіщення",
+    "empty": "Сповіщень немає",
+    "closeAll": "Видалити все"
+  },
+  "chat": {
+    "messages": {
+      "noMessages": "Повідомлень немає",
+      "first": "Напишіть першими!"
+    },
+    "getTitle": {
+      "default": "Чат",
+      "newMessages": "Нові повідомлення:"
+    },
+    "allMembers": "Усі учасники",
+    "selectChat": "Виберіть діалог",
+    "noChats": "У вас немає діалогів",
+    "settings": {
+      "title": "Налаштування",
+      "all": "Приймати від усіх",
+      "member": "Тільки від учасників спільноти",
+      "admin": "Від адміністратора моєї спільноти",
+      "noOne": "Не приймати ні від кого"
+    },
+    "defaultFileName": "Файл",
+    "input": {
+      "placeholder": "Введіть повідомлення"
+    }
+  },
+  "calendar": {
+    "allDay": "Весь день",
+    "today": "Сьогодні",
+    "month": "Місяць",
+    "week": "Тиждень",
+    "day": "День",
+    "date": "Дата",
+    "time": "Час",
+    "event": "Подія"
+  }
+}

@@ -1,0 +1,137 @@
+{
+  "pages": {
+    "community": "Community",
+    "news": "News",
+    "blog": "Blog",
+    "chat": "Chat",
+    "calendar": "Calendar",
+    "about": "About Us",
+    "login": "Login",
+    "registration": "Registration",
+    "profile": "Profile",
+    "admin": "Administrator",
+    "security": "Security",
+    "settings": "Settings",
+    "notFound": "Page not found"
+  },
+  "userBar": {
+    "notifications": "Notifications",
+    "support": "Support",
+    "ssi": "SSI Wallet",
+    "create": "Create"
+  },
+  "buttons": {
+    "logout": "Logout",
+    "login": "Login",
+    "registration": "Registration",
+    "comeFirst": "Become first user",
+    "notification": "Notification",
+    "ssiWallet": "SSI Wallet",
+    "progress": "Progress",
+    "close": "Close",
+    "hide": "Hide",
+    "show": "Show",
+    "create": "Create",
+    "delete": "Delete",
+    "cancel": "Cancel",
+    "language": "Language",
+    "save": "Save",
+    "slider": {
+      "next": "Next slide",
+      "prev": "Previous slide"
+    },
+    "next": "Next",
+    "back": "Back",
+    "download": "Загрузить",
+    "forward": "Go to"
+  },
+  "customWords": {
+    "or": "or",
+    "search": "Search",
+    "articles": "Articles",
+    "sections": "Sections",
+    "noMore": "no more",
+    "notFound": "not found",
+    "section": "Section",
+    "materials": "Materials",
+    "sectionsBlock": "Sections",
+    "blog": "Blog",
+    "eventLink": "Event link",
+    "googleCalendar": "Add to google calendar",
+    "copyLink": "Link copied to clipboard",
+    "share": "Share",
+    "mistake": "Found an error?",
+    "anonim": "Anonymous"
+  },
+  "content": {
+    "match": {
+      "news": "News",
+      "material": "Blog posts",
+      "event": "Events",
+      "task": "Tasks",
+      "quiz": "Quizzes",
+      "donate": "Fundraisers",
+      "advertisement": "Advertisements",
+      "community": "Communities",
+      "vacancy": "Vacancies",
+      "section": "Sections",
+      "suggestion": "Suggestions",
+      "post": "Posts",
+      "article": "Article"
+    },
+    "single": {
+      "news": "News",
+      "material": "Blog post",
+      "event": "Event",
+      "task": "Task",
+      "quiz": "Quiz",
+      "donate": "Fundraiser",
+      "advertisement": "Advertisement",
+      "community": "Community",
+      "vacancy": "Vacancy",
+      "section": "Section",
+      "suggestion": "Suggestion",
+      "post": "Post",
+      "article": "Articles"
+    }
+  },
+  "notifications": {
+    "title": "Notifications",
+    "empty": "No notifications",
+    "closeAll": "Delete all"
+  },
+  "chat": {
+    "messages": {
+      "noMessages": "No messages",
+      "first": "Be the first to write!"
+    },
+    "getTitle": {
+      "default": "Chat",
+      "newMessages": "New messages:"
+    },
+    "allMembers": "All members",
+    "selectChat": "Select chat",
+    "noChats": "You have no chats",
+    "settings": {
+      "title": "Settings",
+      "all": "Accept from everyone",
+      "member": "Only from community members",
+      "admin": "From the administrator of my community",
+      "noOne": "Do not accept from anyone"
+    },
+    "defaultFileName": "File",
+    "input": {
+      "placeholder": "Enter message"
+    }
+  },
+  "calendar": {
+    "allDay": "All day",
+    "today": "Today",
+    "month": "Month",
+    "week": "Week",
+    "day": "Day",
+    "date": "Date",
+    "time": "Time",
+    "event": "Event"
+  }
+}

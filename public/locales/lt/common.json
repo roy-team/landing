@@ -1,0 +1,137 @@
+{
+  "pages": {
+    "community": "Bendruomenė",
+    "news": "Naujienos",
+    "blog": "Blogas",
+    "chat": "Pokalbis",
+    "calendar": "Kalendorius",
+    "about": "Apie mus",
+    "login": "Prisijungti",
+    "registration": "Registracija",
+    "profile": "Profilis",
+    "admin": "Administratorius",
+    "security": "Saugumas",
+    "settings": "Nustatymai",
+    "notFound": "Puslapis nerastas"
+  },
+  "userBar": {
+    "notifications": "Pranešimai",
+    "support": "Pagalba",
+    "ssi": "SSI piniginė",
+    "create": "Sukurti"
+  },
+  "buttons": {
+    "logout": "Atsijungti",
+    "login": "Prisijungti",
+    "registration": "Registracija",
+    "comeFirst": "Tapti pirmuoju naudotoju",
+    "notification": "Pranešimas",
+    "ssiWallet": "SSI piniginė",
+    "progress": "Pažanga",
+    "close": "Uždaryti",
+    "hide": "Slėpti",
+    "show": "Rodyti",
+    "create": "Sukurti",
+    "delete": "Ištrinti",
+    "cancel": "Atšaukti",
+    "language": "Kalba",
+    "save": "Išsaugoti",
+    "slider": {
+      "next": "Kitas skaidrė",
+      "prev": "Ankstesnė skaidrė"
+    },
+    "next": "Kitas",
+    "back": "Atgal",
+    "download": "Atsisiųsti",
+    "forward": "Pereiti"
+  },
+  "customWords": {
+    "or": "arba",
+    "search": "Paieška",
+    "articles": "Artykułów",
+    "sections": "Sekcji",
+    "noMore": "nie ma więcej",
+    "notFound": "nie znaleziono",
+    "section": "Sekcja",
+    "materials": "Materiały",
+    "sectionsBlock": "Sekcje",
+    "blog": "Blog",
+    "eventLink": "Link do wydarzenia",
+    "googleCalendar": "Dodaj do kalendarza Google",
+    "copyLink": "Link skopiowany do schowka",
+    "share": "Udostępnij",
+    "mistake": "Znalazłeś błąd?",
+    "anonim": "Anonimas"
+  },
+  "content": {
+    "match": {
+      "news": "Naujienos",
+      "material": "Tinklaraštis",
+      "event": "Renginiai",
+      "task": "Užduotys",
+      "quiz": "Apklausos",
+      "donate": "Paramos rinkimai",
+      "advertisement": "Skelbimai",
+      "community": "Bendruomenės",
+      "vacancy": "Darbo pasiūlymai",
+      "section": "Skyriai",
+      "suggestion": "Pasiūlymai",
+      "post": "Pranešimas",
+      "article": "Straipsnis"
+    },
+    "single": {
+      "news": "Naujiena",
+      "material": "Tinklaraštis",
+      "event": "Renginys",
+      "task": "Užduotis",
+      "quiz": "Apklausa",
+      "donate": "Paramos rinkimas",
+      "advertisement": "Skelbimas",
+      "community": "Bendruomenė",
+      "vacancy": "Darbo pasiūlymas",
+      "section": "Skyrius",
+      "suggestion": "Pasiūlymas",
+      "post": "Pranešimas",
+      "article": "Straipsnis"
+    }
+  },
+  "notifications": {
+    "title": "Pranešimai",
+    "empty": "Pranešimų nėra",
+    "closeAll": "Ištrinti viską"
+  },
+  "chat": {
+    "messages": {
+      "noMessages": "Nėra žinučių",
+      "first": "Būkite pirmas rašant žinutę!"
+    },
+    "getTitle": {
+      "default": "Pokalbis",
+      "newMessages": "Naujų žinučių:"
+    },
+    "allMembers": "Visi nariai",
+    "selectChat": "Pasirinkite pokalbį",
+    "noChats": "Jūs neturite pokalbių",
+    "settings": {
+      "title": "Nustatymai",
+      "all": "Priimti visiems",
+      "member": "Tik iš bendruomenės narių",
+      "admin": "Iš mano bendruomenės administratoriaus",
+      "noOne": "Nepranešti niekam"
+    },
+    "defaultFileName": "Failas",
+    "input": {
+      "placeholder": "Įveskite žinutę"
+    }
+  },
+  "calendar": {
+    "allDay": "Visą dieną",
+    "today": "Šiandien",
+    "month": "Mėnuo",
+    "week": "Savaitė",
+    "day": "Diena",
+    "date": "Data",
+    "time": "Laikas",
+    "event": "Įvykis"
+  }
+}

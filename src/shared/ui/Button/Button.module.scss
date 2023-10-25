@@ -1,0 +1,177 @@
+@import 'shared/styles/variables/colors';
+@import 'shared/styles/variables/common';
+
+.button {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  padding: 4px 8px;
+  background-color: #ffffff;
+  border-radius: $border-radius;
+  background-clip: padding-box;
+  border: solid $border-size transparent;
+  transition: all $animation-duration ease;
+  user-select: none;
+  text-transform: none;
+
+  & svg path {
+    transition: all $animation-duration ease;
+  }
+
+  &:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+    margin: -$border-size;
+    border-radius: inherit;
+    background: $gradient-primary;
+    transition: all $animation-duration ease;
+  }
+
+  &.primary {
+    color: $white;
+    background-color: transparent;
+
+    &,
+    svg path {
+      stroke: $white;
+    }
+
+    &:disabled {
+      opacity: 0.2;
+      pointer-events: none;
+      color: $white;
+    }
+  }
+
+  //styles of light button
+  &.light {
+    color: $black;
+    background-color: $white;
+
+    & svg path {
+      stroke: $black;
+    }
+
+    &:disabled {
+      pointer-events: none;
+      color: rgba(0, 0, 0, 0.2);
+
+      &:before {
+        opacity: 0.2;
+      }
+    }
+  }
+
+  //styles of danger button
+  &.danger {
+    background-color: $red;
+    color: white;
+    border: $border-size solid $red;
+
+    &:before {
+      background: white;
+    }
+
+    & svg path {
+      stroke: $white;
+    }
+
+    &:hover {
+      color: $red;
+      border-color: $red;
+
+      & svg path {
+        stroke: $red;
+      }
+    }
+
+    &:disabled {
+      pointer-events: none;
+      background-color: rgba(255, 0, 0, 0.2);
+      border-color: rgba(255, 0, 0, 0.2);
+    }
+  }
+
+  &.text {
+    &:before {
+      opacity: 0;
+    }
+
+    &:hover {
+      background-color: white;
+      color: $black;
+
+      & svg path {
+        stroke: $black;
+      }
+
+      &:before {
+        opacity: 1;
+      }
+    }
+
+    &:active {
+      background-color: rgba(255, 255, 255, 0.3);
+      border-color: rgba(255, 255, 255, 0.3);
+      color: $white;
+
+      & svg path {
+        stroke: $white;
+      }
+
+      &:before {
+        opacity: 1;
+      }
+    }
+  }
+
+  &.withIcon {
+    display: flex;
+    align-items: center;
+    position: relative;
+    gap: $grid-gap;
+
+    & svg {
+      margin: 0;
+    }
+  }
+
+  &:hover {
+    background-color: transparent;
+    border-color: transparent;
+    color: $white;
+
+    & svg path {
+      stroke: $white;
+    }
+
+    &:before {
+      opacity: 0.7;
+    }
+  }
+
+  &:active {
+    color: $black;
+    background-color: $white;
+    border-color: transparent;
+
+    & svg path {
+      stroke: $black;
+    }
+
+    &:before {
+      opacity: 1;
+    }
+  }
+
+  &:disabled {
+    pointer-events: none;
+    color: rgba(0, 0, 0, 0.2);
+  }
+}

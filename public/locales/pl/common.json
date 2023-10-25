@@ -1,0 +1,137 @@
+{
+  "pages": {
+    "community": "Społeczność",
+    "news": "Aktualności",
+    "blog": "Blog",
+    "chat": "Czat",
+    "calendar": "Kalendarz",
+    "about": "O nas",
+    "login": "Zaloguj się",
+    "registration": "Rejestracja",
+    "profile": "Profil",
+    "admin": "Administrator",
+    "security": "Bezpieczeństwo",
+    "settings": "Ustawienia",
+    "notFound": "Strona nie znaleziona"
+  },
+  "userBar": {
+    "notifications": "Powiadomienia",
+    "support": "Wsparcie techniczne",
+    "ssi": "Portfel SSI",
+    "create": "Utwórz"
+  },
+  "buttons": {
+    "logout": "Wyloguj",
+    "login": "Logowanie",
+    "registration": "Rejestracja",
+    "comeFirst": "Bądź pierwszym użytkownikiem",
+    "notification": "Powiadomienie",
+    "ssiWallet": "Portfel SSI",
+    "progress": "Postęp",
+    "close": "Zamknij",
+    "hide": "Ukryj",
+    "show": "Pokaż",
+    "create": "Utwórz",
+    "delete": "Usuń",
+    "cancel": "Anuluj",
+    "language": "Język",
+    "save": "Zapisz",
+    "slider": {
+      "next": "Następny slajd",
+      "prev": "Poprzedni slajd"
+    },
+    "next": "Dalej",
+    "back": "Wstecz",
+    "download": "Pobierz",
+    "forward": "Przejdź do przodu"
+  },
+  "customWords": {
+    "or": "lub",
+    "search": "Szukaj",
+    "articles": "Artykułów",
+    "sections": "Sekcji",
+    "noMore": "nie ma więcej",
+    "notFound": "nie znaleziono",
+    "section": "Sekcja",
+    "materials": "Materiały",
+    "sectionsBlock": "Sekcje",
+    "blog": "Blog",
+    "eventLink": "Link do wydarzenia",
+    "googleCalendar": "Dodaj do kalendarza Google",
+    "copyLink": "Link skopiowany do schowka",
+    "share": "Udostępnij",
+    "mistake": "Znalazłeś błąd?",
+    "anonim": "Anonimowy"
+  },
+  "content": {
+    "match": {
+      "news": "Wiadomości",
+      "material": "Blog",
+      "event": "Wydarzenia",
+      "task": "Zadania",
+      "quiz": "Quizy",
+      "donate": "Zbiórki funduszy",
+      "advertisement": "Ogłoszenia",
+      "community": "Społeczności",
+      "vacancy": "Wakaty",
+      "section": "Sekcje",
+      "suggestion": "Propozycje",
+      "post": "Posty",
+      "article": "Artykuły"
+    },
+    "single": {
+      "news": "Wiadomość",
+      "material": "Blog",
+      "event": "Wydarzenie",
+      "task": "Zadanie",
+      "quiz": "Quiz",
+      "donate": "Zbiórka funduszy",
+      "advertisement": "Ogłoszenie",
+      "community": "Społeczność",
+      "vacancy": "Wakat",
+      "section": "Sekcja",
+      "suggestion": "Propozycja",
+      "post": "Post",
+      "article": "Artykuł"
+    }
+  },
+  "notifications": {
+    "title": "Powiadomienia",
+    "empty": "Brak powiadomień",
+    "closeAll": "Usuń wszystko"
+  },
+  "chat": {
+    "messages": {
+      "noMessages": "Brak wiadomości",
+      "first": "Napisz jako pierwszy!"
+    },
+    "getTitle": {
+      "default": "Czat",
+      "newMessages": "Nowe wiadomości:"
+    },
+    "allMembers": "Wszyscy uczestnicy",
+    "selectChat": "Wybierz rozmowę",
+    "noChats": "Nie masz żadnych rozmów",
+    "settings": {
+      "title": "Ustawienia",
+      "all": "Akceptuj od wszystkich",
+      "member": "Tylko od uczestników społeczności",
+      "admin": "Od administratora mojej społeczności",
+      "noOne": "Nie akceptuj od nikogo"
+    },
+    "defaultFileName": "Plik",
+    "input": {
+      "placeholder": "Wpisz wiadomość"
+    }
+  },
+  "calendar": {
+    "allDay": "Cały dzień",
+    "today": "Dzisiaj",
+    "month": "Miesiąc",
+    "week": "Tydzień",
+    "day": "Dzień",
+    "date": "Data",
+    "time": "Godzina",
+    "event": "Wydarzenie"
+  }
+}
