@@ -55,5 +55,12 @@
   "contacts": {
     "title": "Contacts",
     "request": "Request a free consultation"
+  },
+  "header": {
+    "main": "Main",
+    "about": "About",
+    "development": "Development",
+    "training": "Training",
+    "contacts": "Contacts"
   }
 }

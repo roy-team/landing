@@ -55,5 +55,12 @@
   "contacts": {
     "title": "Kontakty",
     "request": "Zażądaj bezpłatnej konsultacji"
+  },
+  "header": {
+    "main": "Główna",
+    "about": "O nas",
+    "development": "Rozwój",
+    "training": "Szkolenie",
+    "contacts": "Kontakty"
   }
 }

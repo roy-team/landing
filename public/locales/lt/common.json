@@ -55,5 +55,12 @@
   "contacts": {
     "title": "Kontaktai",
     "request": "Užklausite nemokamos konsultacijos"
+  },
+  "header": {
+    "main": "Pagrindinis",
+    "about": "Apie mus",
+    "development": "Plėtra",
+    "training": "Mokymai",
+    "contacts": "Kontaktai"
   }
 }
