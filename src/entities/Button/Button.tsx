@@ -38,25 +38,23 @@ export const Button = ({
   ...rest
 }: IButtonProps) => {
   return (
-    <div style={{ zIndex: 1, display: "flex" }}>
-      <button
-        className={cn(styles.button, className, {
-          [styles.onlyIcon]: onlyIcon,
-          [styles[variant]]: variant,
-        })}
-        onClick={onClick}
-        data-cy={dataCy}
-        style={{
-          width: maxWidth ? "100%" : undefined,
-        }}
-        onKeyDown={onKeyDown}
-        type={type}
-        disabled={disabled}
-        title={title}
-        {...rest}
-      >
-        {children}
-      </button>
-    </div>
+    <button
+      className={cn(styles.button, className, {
+        [styles.onlyIcon]: onlyIcon,
+        [styles[variant]]: variant,
+      })}
+      onClick={onClick}
+      data-cy={dataCy}
+      style={{
+        width: maxWidth ? "100%" : undefined,
+      }}
+      onKeyDown={onKeyDown}
+      type={type}
+      disabled={disabled}
+      title={title}
+      {...rest}
+    >
+      {children}
+    </button>
   );
 };

@@ -9,6 +9,7 @@ import { DevelopmentBlock } from "widgets/Blocks/Development/Development";
 import { TrainingBlock } from "widgets/Blocks/Training/Training";
 import { ContactsBlock } from "widgets/Blocks/Contacts/Contacts";
 import { Banner } from "widgets/Blocks/Banner/Banner";
+import { mockImages } from "@entities/constants/images";
 
 export async function getStaticProps({ locale }: { locale: Language }) {
   return {
@@ -26,7 +27,11 @@ export const Index = () => {
 
   return (
     <>
-      <SEO title={"Comdev group"} description={t("seo.decryption")} />
+      <SEO
+        title={"Comdev group"}
+        description={t("seo.decryption")}
+        image={mockImages.main}
+      />
       <Header />
       <MainBlock />
       <AboutBlock />

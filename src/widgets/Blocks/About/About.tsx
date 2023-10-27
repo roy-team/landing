@@ -2,6 +2,7 @@ import Image from "next/image";
 import styles from "./About.module.scss";
 import { useTranslation } from "next-i18next";
 import classNames from "classnames";
+import { mockImages } from "@entities/constants/images";
 
 export const AboutBlock = () => {
   const { t } = useTranslation();
@@ -10,7 +11,7 @@ export const AboutBlock = () => {
       <Image
         width={660}
         height={660}
-        src={"/images/image2286.jpg"}
+        src={mockImages.about}
         alt="main image"
         className={styles.image}
       />

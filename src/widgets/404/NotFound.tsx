@@ -1,6 +1,6 @@
 import { useRouter } from "next/router";
 import styles from "./NotFound.module.scss";
-import { Button } from "@shared/ui/Button/Button";
+import { Button } from "@entities/Button/Button";
 import { useTranslation } from "next-i18next";
 
 export const NotFound = () => {

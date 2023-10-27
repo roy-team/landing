@@ -1,7 +1,8 @@
-import { Button } from "@shared/ui/Button/Button";
+import { Button } from "@entities/Button/Button";
 import styles from "./Main.module.scss";
 import { useTranslation } from "next-i18next";
 import Image from "next/image";
+import { mockImages } from "@entities/constants/images";
 
 export const MainBlock = () => {
   const { t } = useTranslation();
@@ -17,7 +18,7 @@ export const MainBlock = () => {
       <Image
         width={660}
         height={660}
-        src={"/images/image2282.jpg"}
+        src={mockImages.main}
         alt="main image"
         className={styles.image}
       />

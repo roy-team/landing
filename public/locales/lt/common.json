@@ -20,7 +20,7 @@
     "title": "Plėtros paslaugos",
     "items": [
       "Bendruomenių sąveikos platformos",
-      "Sprendimai decentralizuotoms bendruomenėms (DAO, SSI, AI, blockchain)",
+      "Sprendimai decentralizuotoms bendruomenėms",
       "Pokalbių robotų kūrimas bendruomenių galimybių plėtrai",
       "Bendruomenių efektyvumo ir poveikio analitika"
     ],
@@ -45,11 +45,11 @@
     "services": {
       "title": "Mokymo paslaugos",
       "items": [
-        "Seminarai bendruomenių valdymui",
-        "Ekspertinės konsultacijos",
-        "Sertifikavimo programos",
-        "Užsisakyti mokymus"
-      ]
+        "Bendruomenės valdymo seminarai",
+        "Ekspertų konsultacijos",
+        "Sertifikavimo programos"
+      ],
+      "order": "Prisijunkite prie mokymų programų"
     }
   },
   "contacts": {

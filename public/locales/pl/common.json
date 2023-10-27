@@ -20,7 +20,7 @@
     "title": "Usługi rozwojowe",
     "items": [
       "Platformy interakcji z społecznościami",
-      "Rozwiązania dla zdecentralizowanych społeczności (DAO, SSI, AI, blockchain)",
+      "Rozwiązania dla zdecentralizowanych społeczności",
       "Rozwój czatbotów w celu poszerzenia możliwości społeczności",
       "Analityka efektywności i wpływu na społeczność"
     ],
@@ -47,9 +47,9 @@
       "items": [
         "Seminarium dotyczące zarządzania społecznościami",
         "Ekspertowe konsultacje",
-        "Programy certyfikacyjne",
-        "Zamówienie szkolenia"
-      ]
+        "Programy certyfikacyjne"
+      ],
+      "order": "Dołącz do programów szkoleniowych"
     }
   },
   "contacts": {

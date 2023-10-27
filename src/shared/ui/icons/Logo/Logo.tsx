@@ -28,4 +28,4 @@ const SvgComponent = (
 );
 const ForwardRef = forwardRef(SvgComponent);
 const Memo = memo(ForwardRef);
-export { Memo as Logo };
+export { Memo as LogoComDev };
