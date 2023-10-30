@@ -5,11 +5,12 @@ import Link from "next/link";
 import { Button } from "@entities/Button/Button";
 import { Expertise } from "./Expertise/Expertise";
 import { mockImages } from "@entities/constants/images";
+import { BLOCKS_ID } from "@entities/constants/navigation";
 
 export const TrainingBlock = () => {
   const { t } = useTranslation();
   return (
-    <div className={styles.wrapper} id="main">
+    <div className={styles.wrapper} id={BLOCKS_ID.training}>
       <Image
         width={560}
         height={560}

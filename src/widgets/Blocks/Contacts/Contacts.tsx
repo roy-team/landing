@@ -6,11 +6,12 @@ import { useTranslation } from "next-i18next";
 import { Button } from "@entities/Button/Button";
 import { LinkedinLogo } from "@shared/ui/icons/LinkedinLogo/LinkedinLogo";
 import { TelegramLogo } from "@shared/ui/icons/TelegramLogo/TelegramLogo";
+import { BLOCKS_ID } from "@entities/constants/navigation";
 
 export const ContactsBlock = () => {
   const { t } = useTranslation();
   return (
-    <div className={styles.wrapper}>
+    <div className={styles.wrapper} id={BLOCKS_ID.contacts}>
       <div className={styles.content}>
         <h2 className={styles.title}>{t("contacts.title")}</h2>
         <Link

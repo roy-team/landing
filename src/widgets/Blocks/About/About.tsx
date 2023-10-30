@@ -3,11 +3,12 @@ import styles from "./About.module.scss";
 import { useTranslation } from "next-i18next";
 import classNames from "classnames";
 import { mockImages } from "@entities/constants/images";
+import { BLOCKS_ID } from "@entities/constants/navigation";
 
 export const AboutBlock = () => {
   const { t } = useTranslation();
   return (
-    <div className={styles.wrapper} id="main">
+    <div className={styles.wrapper} id={BLOCKS_ID.about}>
       <Image
         width={660}
         height={660}
