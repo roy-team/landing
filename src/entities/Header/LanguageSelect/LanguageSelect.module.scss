@@ -3,17 +3,12 @@
 
 .selectWrapper {
   display: flex;
-  position: absolute;
-  top: 0;
-  right: 0;
   flex-direction: column;
   gap: $grid-gap;
   color: $black;
   transition: color $animation-duration ease;
   transition: background-clip $animation-duration ease;
   transition: background-image $animation-duration ease;
-  background-color: $background;
-  border-radius: 10px;
 
   svg {
     cursor: pointer;
@@ -51,12 +46,10 @@
 
 .selectList {
   font-size: 14px;
-  padding-left: 17px;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   gap: $grid-gap;
-  padding-bottom: 1rem;
 }
 
 .selectItem {

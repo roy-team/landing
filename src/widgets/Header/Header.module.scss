@@ -13,26 +13,42 @@
   align-items: center;
   justify-content: space-between;
   z-index: 100;
+
   &:before {
     content: '';
     position: absolute;
     top: 0;
-    right: 0;
+    width: 100vw;
     bottom: 0;
-    left: 0;
+    left: calc(50% - 50vw);
     z-index: -1;
     border-radius: inherit;
     background: $background;
     transition: all $animation-duration ease;
-    opacity: 0.8;
+    opacity: 0.9;
   }
 }
+
 .logo {
   /* width: 90px; */
   height: auto;
 }
+
 .content {
   display: flex;
   position: relative;
   gap: 30px;
+
+  @media only screen and (max-width: 740px) {
+    display: none;
+  }
+}
+
+.burger {
+  display: none;
+  height: 100%;
+
+  @media only screen and (max-width: 740px) {
+    display: flex;
+  }
 }

@@ -1,13 +1,14 @@
 import Link from "next/link";
-import styles from "./NavBar.module.scss";
+import styles from "./BurgerMenu.module.scss";
 import { useTranslation } from "next-i18next";
 import { NAV_CONFIG } from "@entities/constants/navigation";
+import { BurgerLanguage } from "./BurgerLanguage/BurgerLanguage";
 
 type Props = {
   direction?: "row" | "column" | "column-reverse" | "row-reverse";
 };
 
-export const NavBar = ({ direction = "row" }: Props) => {
+export const BurgerMenu = ({ direction = "column" }: Props) => {
   const { t } = useTranslation();
   return (
     <nav className={styles.wrapper}>
@@ -21,6 +22,7 @@ export const NavBar = ({ direction = "row" }: Props) => {
             </li>
           );
         })}
+        <BurgerLanguage />
       </ul>
     </nav>
   );
