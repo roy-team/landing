@@ -15,7 +15,7 @@ export const NavBar = ({ direction = "row" }: Props) => {
         {NAV_CONFIG.map((el, index) => {
           return (
             <li key={`nav-item-${index}`} className={styles.item}>
-              <Link className={styles.link} href={`#${el.href}`}>
+              <Link className={styles.link} href={`/#${el.href}`}>
                 {t(el.title)}
               </Link>
             </li>

@@ -1,6 +1,7 @@
 {
-  "pages": {
-    "notFound": "Puslapis nerastas"
+  "notFound": {
+    "title": "Puslapis nerastas",
+    "back": "Atgal"
   },
   "seo": {
     "decryption": "ekspertai skaitmeninių sprendimų srityje bendruomenėms."

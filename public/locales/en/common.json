@@ -1,6 +1,7 @@
 {
-  "pages": {
-    "notFound": "Page not found"
+  "notFound": {
+    "title": "Page not found",
+    "back": "Back"
   },
   "seo": {
     "decryption": "experts in the field of cyber solutions for communities."
