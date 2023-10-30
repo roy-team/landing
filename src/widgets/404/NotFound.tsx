@@ -8,13 +8,14 @@ export const NotFound = () => {
   const { t } = useTranslation("common");
   return (
     <div className={styles.wrapper}>
-      <h1>{`404 - ${t("pages.notFound")}`}</h1>
+      <h1>{`404 - ${t("notFound.title")}`}</h1>
       <Button
+        className={styles.button}
         onClick={() => {
           router.back();
         }}
       >
-        {t("buttons.back")}
+        {t("notFound.back")}
       </Button>
     </div>
   );

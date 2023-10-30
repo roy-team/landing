@@ -5,6 +5,7 @@ import Image from "next/image";
 import { mockImages } from "@entities/constants/images";
 import { BLOCKS_ID } from "@entities/constants/navigation";
 import { ContentWrapper } from "@entities/ContentWrapper/ContentWrapper";
+import Link from "next/link";
 
 export const MainBlock = () => {
   const { t } = useTranslation();
@@ -15,7 +16,9 @@ export const MainBlock = () => {
           <strong className={styles.bold}>Comdev group </strong>
           {t("main.info")}
         </p>
-        <Button className={styles.button}>{t("main.contact")}</Button>
+        <Link href={"/form"}>
+          <Button className={styles.button}>{t("main.contact")}</Button>
+        </Link>
       </div>
       <Image
         width={660}
