@@ -1,3 +1,74 @@
+@import 'shared/styles/variables/colors';
+@import 'shared/styles/variables/common';
+
 .wrapper {
   display: flex;
+  justify-content: space-between;
+  margin: 60px 0;
+  align-items: center;
+  padding: 0 20px;
+
+  @media only screen and (max-width: 1024px) {
+    flex-direction: column-reverse;
+    gap: 2rem;
+  }
+}
+
+.image {
+  border-radius: 20px;
+  width: 100%;
+  max-width: 560px;
+  height: auto;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+
+  @media only screen and (max-width: 1024px) {
+    max-width: 560px;
+    width: 100%;
+  }
+}
+
+.social {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.title {
+  font-size: 45px;
+  font-weight: 700;
+  line-height: 40px;
+  letter-spacing: 0em;
+  text-align: left;
+  text-transform: none;
+  color: $black;
+}
+
+.text {
+  display: flex;
+  gap: 1rem;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 35px;
+  letter-spacing: 0em;
+  text-align: left;
+  text-transform: none;
+  color: $black; 
+  transition: all;
+  transition-duration: $animation-duration;
+  &:visited, &:link {
+    color: $black; 
+  }
+  &:hover {
+    color: $primary;
+  }
+}
+
+.button {
+  padding-left: 2rem;
+  padding-right: 2rem;
 }

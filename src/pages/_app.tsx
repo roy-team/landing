@@ -8,7 +8,7 @@ import { GlobalLayout } from "widgets/GlobalLayout/GlobalLayout";
 
 const fonts = Jost({
   subsets: ["latin", "cyrillic"],
-  weight: ["300", "400", "500", "600", "700"],
+  weight: ["300", "400", "500", "600", "700", "800"],
 });
 
 export type NextPageWithLayout<P = object, IP = P> = NextPage<P, IP> & {

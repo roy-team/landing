@@ -17,6 +17,7 @@
   width: 100%;
   max-width: 560px;
   height: auto;
+
 }
 
 .textBlock {
@@ -25,12 +26,22 @@
   max-width: 360px;
   gap: 20px;
 
+  @media only screen and (max-width: 1024px) {
+    max-width: 660px;
+    width: 100%;
+  }
+
   .bold {
     font-size: 35px;
     font-weight: 600;
     line-height: 40px;
     letter-spacing: 0em;
     text-align: left;
+
+    @media only screen and (max-width: 720px) {
+      font-size: 26px;
+      line-height: 29px;
+    }
   }
 
   .text {
@@ -40,6 +51,11 @@
     letter-spacing: 0em;
     text-align: left;
 
+    @media only screen and (max-width: 720px) {
+      font-size: 26px;
+      line-height: 29px;
+      text-align: center;
+    }
   }
 }
 
