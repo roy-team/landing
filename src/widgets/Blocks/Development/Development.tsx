@@ -4,11 +4,12 @@ import { Button } from "@entities/Button/Button";
 import Image from "next/image";
 import Link from "next/link";
 import { mockImages } from "@entities/constants/images";
+import { BLOCKS_ID } from "@entities/constants/navigation";
 
 export const DevelopmentBlock = () => {
   const { t } = useTranslation();
   return (
-    <div className={styles.wrapper} id="main">
+    <div className={styles.wrapper} id={BLOCKS_ID.development}>
       <div className={styles.textBlock}>
         <h2 className={styles.title}>{t("development.title")}:</h2>
         <ul className={styles.list}>
