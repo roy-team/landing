@@ -1,6 +1,7 @@
 {
-  "pages": {
-    "notFound": "Strona nie znaleziona"
+  "notFound": {
+    "title": "Strona nie znaleziona",
+    "back": "Wstecz"
   },
   "seo": {
     "decryption": "eksperci w dziedzinie rozwiązań cyfrowych dla społeczności."
