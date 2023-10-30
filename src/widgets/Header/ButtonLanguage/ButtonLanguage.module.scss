@@ -1,0 +1,30 @@
+@import 'shared/styles/variables/colors';
+@import 'shared/styles/variables/common';
+
+.wrapper {
+  display: flex;
+  position: relative;
+  cursor: pointer;
+  height: 100%;
+  align-items: center;
+}
+
+.icon {
+
+  rect {
+    transition: all $animation-duration ease;
+  }
+  
+  &:hover {
+
+    rect {
+      fill: $primary;
+    }
+  }
+}
+.menu {
+  position: absolute;
+  top: 100%;
+  right: 0;
+
+}

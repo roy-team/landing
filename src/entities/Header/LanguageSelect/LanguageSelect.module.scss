@@ -1,0 +1,72 @@
+@import 'shared/styles/variables/common';
+@import 'shared/styles/variables/colors';
+
+.selectWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: $grid-gap;
+  color: $black;
+  transition: color $animation-duration ease;
+  transition: background-clip $animation-duration ease;
+  transition: background-image $animation-duration ease;
+
+  svg {
+    cursor: pointer;
+  }
+
+
+  &:hover {
+    opacity: 1;
+
+    .title {
+      color: $primary;
+    }
+
+    path {
+      stroke: $primary;
+    }
+  }
+}
+
+.selectButton {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: $grid-gap;
+}
+
+.title {
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.active {
+  color: $primary;
+}
+
+.selectList {
+  font-size: 14px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: $grid-gap;
+}
+
+.selectItem {
+  cursor: pointer;
+
+  &:hover {
+    color: $primary;
+  }
+}
+.arrowIcon {
+  path {
+    stroke: $black
+  }
+
+  &:hover {
+    path {
+      stroke: $primary
+    }
+  }
+}
