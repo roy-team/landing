@@ -4,11 +4,12 @@ import { useTranslation } from "next-i18next";
 import classNames from "classnames";
 import { mockImages } from "@entities/constants/images";
 import { BLOCKS_ID } from "@entities/constants/navigation";
+import { ContentWrapper } from "@entities/ContentWrapper/ContentWrapper";
 
 export const AboutBlock = () => {
   const { t } = useTranslation();
   return (
-    <div className={styles.wrapper} id={BLOCKS_ID.about}>
+    <ContentWrapper className={styles.wrapper} id={BLOCKS_ID.about}>
       <Image
         width={660}
         height={660}
@@ -38,6 +39,6 @@ export const AboutBlock = () => {
           {t(t("about.values.decryption"))}
         </p>
       </div>
-    </div>
+    </ContentWrapper>
   );
 };
