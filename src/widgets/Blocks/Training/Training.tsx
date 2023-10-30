@@ -6,11 +6,12 @@ import { Button } from "@entities/Button/Button";
 import { Expertise } from "./Expertise/Expertise";
 import { mockImages } from "@entities/constants/images";
 import { BLOCKS_ID } from "@entities/constants/navigation";
+import { ContentWrapper } from "@entities/ContentWrapper/ContentWrapper";
 
 export const TrainingBlock = () => {
   const { t } = useTranslation();
   return (
-    <div className={styles.wrapper} id={BLOCKS_ID.training}>
+    <ContentWrapper className={styles.wrapper} id={BLOCKS_ID.training}>
       <Image
         width={560}
         height={560}
@@ -33,6 +34,6 @@ export const TrainingBlock = () => {
           </Button>
         </Link>
       </div>
-    </div>
+    </ContentWrapper>
   );
 };

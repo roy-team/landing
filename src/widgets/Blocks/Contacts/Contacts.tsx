@@ -7,11 +7,12 @@ import { Button } from "@entities/Button/Button";
 import { LinkedinLogo } from "@shared/ui/icons/LinkedinLogo/LinkedinLogo";
 import { TelegramLogo } from "@shared/ui/icons/TelegramLogo/TelegramLogo";
 import { BLOCKS_ID } from "@entities/constants/navigation";
+import { ContentWrapper } from "@entities/ContentWrapper/ContentWrapper";
 
 export const ContactsBlock = () => {
   const { t } = useTranslation();
   return (
-    <div className={styles.wrapper} id={BLOCKS_ID.contacts}>
+    <ContentWrapper className={styles.wrapper} id={BLOCKS_ID.contacts}>
       <div className={styles.content}>
         <h2 className={styles.title}>{t("contacts.title")}</h2>
         <Link
@@ -50,6 +51,6 @@ export const ContactsBlock = () => {
         alt="main image"
         className={styles.image}
       />
-    </div>
+    </ContentWrapper>
   );
 };
