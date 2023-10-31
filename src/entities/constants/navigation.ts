@@ -1,4 +1,9 @@
-type BlockName = "main" | "about" | "development" | "training" | "contacts";
+export type BlockName =
+  | "main"
+  | "about"
+  | "development"
+  | "training"
+  | "contacts";
 
 export const NAV_CONFIG: Array<{ title: string; href: BlockName }> = [
   { title: "header.main", href: "main" },
@@ -8,7 +13,7 @@ export const NAV_CONFIG: Array<{ title: string; href: BlockName }> = [
   { title: "header.contacts", href: "contacts" },
 ];
 
-export const BLOCKS_ID: Record<BlockName, BlockName> = {
+export const BLOCKS_ID: Record<string, BlockName> = {
   main: "main",
   about: "about",
   contacts: "contacts",

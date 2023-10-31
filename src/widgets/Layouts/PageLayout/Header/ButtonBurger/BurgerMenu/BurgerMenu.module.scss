@@ -31,3 +31,13 @@
     color: $primary;
   }
 }
+
+.active {
+  color: $primary;
+
+  &:visited,
+  &:link,
+  a {
+    color: $primary;
+  }
+}
