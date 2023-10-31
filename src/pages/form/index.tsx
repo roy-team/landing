@@ -1,7 +1,7 @@
-import { useTranslation } from "next-i18next";
 import { serverSideTranslations } from "next-i18next/serverSideTranslations";
-import { Language, acceptedLanguages } from "@shared/constants/language";
-import { NotFound } from "widgets/404/NotFound";
+import { Language, acceptedLanguages } from "shared/constants/language";
+import { useTranslation } from "next-i18next";
+import { mockImages } from "@entities/constants/images";
 import { PageLayout } from "widgets/Layouts/PageLayout/PageLayout";
 
 export async function getStaticProps({ locale }: { locale: Language }) {
@@ -9,21 +9,24 @@ export async function getStaticProps({ locale }: { locale: Language }) {
     props: {
       ...(await serverSideTranslations(
         acceptedLanguages.includes(locale) ? locale : "en",
-        ["common", "auth"],
+        ["common"],
       )),
     },
   };
 }
 
-export default function Custom404() {
+export const Index = () => {
   const { t } = useTranslation("common");
+
   return (
     <PageLayout
-      title={t("pages.notFound")}
+      title={"Comdev group"}
       description={t("seo.decryption")}
-      /* image={mockImages.main} */
+      image={mockImages.main}
     >
-      <NotFound />
+      <div></div>
     </PageLayout>
   );
-}
+};
+
+export default Index;
