@@ -64,5 +64,22 @@
     "training": "Mokymai",
     "contacts": "Kontaktai",
     "language": "Kalba"
+  },
+  "form": {
+    "title": "Užsisakykite paslaugas",
+    "name": "Vardas arba įmonės pavadinimas",
+    "question": "Jūsų užklausa",
+    "contacts": "Kaip su jumis susisiekti?",
+    "button": "Užsakyti"
+  },
+  "error": {
+    "invalidEmail": "Netinkamas el. pašto formatas",
+    "max100": "Laukas neturi būti ilgesnis nei 100 simbolių",
+    "required": "Laukas yra privalomas",
+    "max50": "Laukas neturi būti ilgesnis nei 50 simbolių",
+    "max256": "Laukas neturi būti ilgesnis nei 256 simbolių",
+    "min8": "Laukas neturi būti trumpesnis nei 8 simboliai",
+    "notValidPassword": "Naudokite 8 ar daugiau simbolių su didžiosiomis ir mažosiomis raidėmis, skaičiais ir simboliais",
+    "confirmPassword": "Reikšmė turi atitikti reikšmę lauke Slaptažodis"
   }
 }

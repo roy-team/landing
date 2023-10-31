@@ -3,6 +3,7 @@ import { Language, acceptedLanguages } from "shared/constants/language";
 import { useTranslation } from "next-i18next";
 import { mockImages } from "@entities/constants/images";
 import { PageLayout } from "widgets/Layouts/PageLayout/PageLayout";
+import { FormWidget } from "widgets/Blocks/FormWidget/FormWidget";
 
 export async function getStaticProps({ locale }: { locale: Language }) {
   return {
@@ -16,7 +17,7 @@ export async function getStaticProps({ locale }: { locale: Language }) {
 }
 
 export const Index = () => {
-  const { t } = useTranslation("common");
+  const { t } = useTranslation();
 
   return (
     <PageLayout
@@ -24,7 +25,7 @@ export const Index = () => {
       description={t("seo.decryption")}
       image={mockImages.main}
     >
-      <div></div>
+      <FormWidget />
     </PageLayout>
   );
 };

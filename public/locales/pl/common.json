@@ -64,5 +64,22 @@
     "training": "Szkolenie",
     "contacts": "Kontakty",
     "language": "Język"
+  },
+  "form": {
+    "title": "Zamów usługi",
+    "name": "Imię lub nazwa firmy",
+    "question": "Twoje zapytanie",
+    "contacts": "Jak się z tobą skontaktować?",
+    "button": "Zamów"
+  },
+  "error": {
+    "invalidEmail": "Niepoprawny format adresu e-mail",
+    "max100": "Pole nie może być dłuższe niż 100 znaków",
+    "required": "Pole jest wymagane",
+    "max50": "Pole nie może być dłuższe niż 50 znaków",
+    "max256": "Pole nie może być dłuższe niż 256 znaków",
+    "min8": "Pole nie może być krótsze niż 8 znaków",
+    "notValidPassword": "Użyj 8 lub więcej znaków z kombinacją dużych i małych liter, cyfr i symboli",
+    "confirmPassword": "Wartość musi być taka sama jak wartość w polu Hasło"
   }
 }

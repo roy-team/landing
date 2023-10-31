@@ -5,4 +5,5 @@ export const mockImages = {
   training: "/images/image2276.jpg",
   logo: "/images/logo.svg",
   contacts: "/images/image2279.jpg",
+  form: "/images/image2284.jpg",
 };

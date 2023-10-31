@@ -22,7 +22,7 @@ export async function getStaticProps({ locale }: { locale: Language }) {
 }
 
 export const Index = () => {
-  const { t } = useTranslation("common");
+  const { t } = useTranslation();
 
   return (
     <PageLayout
