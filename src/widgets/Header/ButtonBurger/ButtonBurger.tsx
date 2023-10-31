@@ -11,7 +11,7 @@ export const ButtonBurger = () => {
   return (
     <div className={styles.wrapper} ref={ref}>
       <div className={styles.button} onClick={setIsOpen}>
-        <BurgerIcon className={styles.icon} isActive={isOpen} />
+        <BurgerIcon className={styles.icon} close={isOpen} />
       </div>
       {isOpen && (
         <div className={styles.menu}>
