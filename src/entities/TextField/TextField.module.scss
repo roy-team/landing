@@ -1,0 +1,35 @@
+@import 'shared/styles/variables/colors';
+@import 'shared/styles/variables/common';
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.error {
+  outline: $red auto;
+}
+
+.errorText {
+  margin-left: 30px;
+  color: $red;
+}
+
+.input {
+  border-radius: $border-radius;
+  border-color: transparent;
+  padding: 13px 30px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+
+  &:focus-visible {
+    outline: none;
+  }
+
+  &:placeholder-shown {
+    background-color: rgba(217, 217, 217, 1);
+  }
+}

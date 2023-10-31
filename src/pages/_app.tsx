@@ -4,7 +4,7 @@ import type { AppProps } from "next/app";
 import { ReactElement, ReactNode } from "react";
 import { Jost } from "next/font/google";
 import { appWithTranslation } from "next-i18next";
-import { GlobalLayout } from "widgets/GlobalLayout/GlobalLayout";
+import { StyledAppLayout } from "widgets/Layouts/StyledAppLayout/StyledAppLayout";
 
 const fonts = Jost({
   subsets: ["latin", "cyrillic"],
@@ -23,9 +23,9 @@ const App = ({ Component, pageProps }: AppWithLayoutProps) => {
   const getLayout = Component.getLayout ?? ((page) => page);
   return getLayout(
     <main className={fonts.className}>
-      <GlobalLayout>
+      <StyledAppLayout>
         <Component {...pageProps} />
-      </GlobalLayout>
+      </StyledAppLayout>
     </main>,
   );
 };

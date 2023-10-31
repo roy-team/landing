@@ -13,6 +13,7 @@
   user-select: none;
   text-transform: none;
   cursor: pointer;
+  outline: none;
 
   & svg path {
     transition: all $animation-duration ease;

@@ -64,5 +64,22 @@
     "training": "Training",
     "contacts": "Contacts",
     "language": "Language"
+  },
+  "form": {
+    "title": "Order services",
+    "name": "Name or company name",
+    "question": "Your request",
+    "contacts": "How to contact you?",
+    "button": "Order"
+  },
+  "error": {
+    "invalidEmail": "Invalid email format",
+    "max100": "Field must not be longer than 100 characters",
+    "required": "Field is required",
+    "max50": "Field must not be longer than 50 characters",
+    "max256": "Field must not be longer than 256 characters",
+    "min8": "Field must not be shorter than 8 characters",
+    "notValidPassword": "Use 8 or more characters with a mix of uppercase and lowercase letters, numbers, and symbols",
+    "confirmPassword": "Value must match the value in the Password field"
   }
 }
