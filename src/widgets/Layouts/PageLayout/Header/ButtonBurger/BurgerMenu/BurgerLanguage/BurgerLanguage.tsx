@@ -10,7 +10,7 @@ export const BurgerLanguage = () => {
   const { t } = useTranslation();
   return (
     <div className={styles.wrapper} onClick={setIsOpen} ref={ref}>
-      <p>{t("header.language")}:</p>
+      <p className={styles.text}>{t("header.language")}:</p>
       {isOpen && (
         <div className={styles.menu}>
           <LanguageSelect close={setIsOpen} />

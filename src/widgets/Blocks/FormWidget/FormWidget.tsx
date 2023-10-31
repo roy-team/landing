@@ -2,7 +2,6 @@ import Image from "next/image";
 import styles from "./FormWidget.module.scss";
 import { useTranslation } from "next-i18next";
 import { mockImages } from "@entities/constants/images";
-import { BLOCKS_ID } from "@entities/constants/navigation";
 import { ContentWrapper } from "@entities/ContentWrapper/ContentWrapper";
 import { TextField } from "@entities/TextField/TextField";
 import { useFeedback } from "features/Forms/feedback";
@@ -23,7 +22,7 @@ export const FormWidget = () => {
     setQuestion,
   } = useFeedback();
   return (
-    <ContentWrapper className={styles.wrapper} id={BLOCKS_ID.training}>
+    <ContentWrapper className={styles.wrapper}>
       <Image
         width={560}
         height={560}

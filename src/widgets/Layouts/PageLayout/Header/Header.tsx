@@ -4,16 +4,20 @@ import { NavBar } from "./NavBar/NavBar";
 import { ButtonBurger } from "./ButtonBurger/ButtonBurger";
 import { ButtonLanguage } from "./ButtonLanguage/ButtonLanguage";
 
-export const Header = () => {
+type Props = {
+  activeId: string;
+};
+
+export const Header = ({ activeId }: Props) => {
   return (
     <div className={styles.wrapper}>
       <LogoComDev className={styles.logo} />
       <div className={styles.content}>
-        <NavBar direction="row" />
+        <NavBar activeId={activeId} direction="row" />
         <ButtonLanguage />
       </div>
       <div className={styles.burger}>
-        <ButtonBurger />
+        <ButtonBurger activeId={activeId} />
       </div>
     </div>
   );

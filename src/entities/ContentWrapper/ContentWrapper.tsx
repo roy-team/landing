@@ -1,9 +1,10 @@
 import classNames from "classnames";
 import styles from "./ContentWrapper.module.scss";
+import { type BlockName } from "@entities/constants/navigation";
 
 type Props = {
   children: Array<JSX.Element>;
-  id: string;
+  id?: BlockName;
   className?: string;
 };
 

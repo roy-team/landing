@@ -45,7 +45,7 @@ export const useFeedback = () => {
     onSubmit: async (value) => {
       console.log(value);
       alert(
-        `джём бэк от Дениса, \nenter: {\n  name: ${values.name}, \n  contacts: ${values.contacts}, \n  question: ${values.question}\n}`,
+        `ждём бэк от Дениса, \nenter: {\n  name: ${values.name}, \n  contacts: ${values.contacts}, \n  question: ${values.question}\n}`,
       );
     },
   });
