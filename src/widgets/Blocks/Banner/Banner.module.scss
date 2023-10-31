@@ -33,12 +33,10 @@
 
   &::before {
     right: 100%;
-    border-radius: $border-radius 0 0 $border-radius;
   }
 
   &::after {
     left: 100%;
-    border-radius: 0 $border-radius $border-radius 0;
   }
 }
 
