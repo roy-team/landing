@@ -38,6 +38,7 @@ export const useFeedback = () => {
     isValid,
     validateField,
     setFieldError,
+    resetForm,
   } = useFormik({
     validationSchema,
     initialValues,
@@ -54,7 +55,7 @@ export const useFeedback = () => {
         }),
       })
         .then((response) => response.json())
-        .then((data) => console.log(data))
+        .then(() => resetForm())
         .catch((error) => console.error("Error:", error));
     },
   });
