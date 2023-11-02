@@ -28,7 +28,7 @@ export const TrainingBlock = () => {
           <li className={styles.text}>{t("training.services.items.1")}</li>
           <li className={styles.text}>{t("training.services.items.2")}</li>
         </ul>
-        <Link href={"/form"}>
+        <Link href={"https://t.me/communitihub"} target="_blank">
           <Button className={styles.button}>
             {t("training.services.order")}
           </Button>
