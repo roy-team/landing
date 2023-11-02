@@ -32,7 +32,6 @@ export const useScroll = (ref: RefObject<HTMLDivElement>) => {
         });
       setActiveId(sorted[0].id);
     };
-
     window.addEventListener("scrollend", checkScroll);
 
     return () => {
