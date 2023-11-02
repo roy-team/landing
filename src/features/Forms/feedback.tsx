@@ -10,7 +10,7 @@ type Values = {
 };
 
 export const useFeedback = () => {
-  const { t } = useTranslation();
+  const { t, i18n } = useTranslation();
   const initialValues: Values = {
     contacts: "",
     name: "",
@@ -42,11 +42,20 @@ export const useFeedback = () => {
     validationSchema,
     initialValues,
     validateOnChange: false,
-    onSubmit: async (value) => {
-      console.log(value);
-      alert(
-        `ждём бэк от Дениса, \nenter: {\n  name: ${values.name}, \n  contacts: ${values.contacts}, \n  question: ${values.question}\n}`,
-      );
+    onSubmit: async () => {
+      fetch("/api/form", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({
+          ...values,
+          language: i18n.language,
+        }),
+      })
+        .then((response) => response.json())
+        .then((data) => console.log(data))
+        .catch((error) => console.error("Error:", error));
     },
   });
 

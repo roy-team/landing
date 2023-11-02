@@ -15,22 +15,27 @@ export const useScroll = (ref: RefObject<HTMLDivElement>) => {
         return;
       }
       const children = Array.from(ref.current.children);
-      children.forEach(async (el) => {
-        if (!el.id) {
-          return;
-        }
-        const rect = el.getBoundingClientRect();
-        if (rect.top >= -320 && rect.bottom <= window.innerHeight + 320) {
-          /* await router.push(`#${el.id}`); */
-          setActiveId(el.id);
-        }
-      });
-    };
 
-    window.addEventListener("scroll", checkScroll);
+      const sorted = children
+        .map((el) => {
+          return {
+            id: el.id,
+            position: el.getBoundingClientRect().top,
+          };
+        })
+        .filter((el) => el.id !== "")
+        .sort((a, b) => {
+          if (a.id === "") {
+            return 1;
+          }
+          return Math.abs(a.position) - Math.abs(b.position);
+        });
+      setActiveId(sorted[0].id);
+    };
+    window.addEventListener("scrollend", checkScroll);
 
     return () => {
-      window.removeEventListener("scroll", checkScroll);
+      window.removeEventListener("scrollend", checkScroll);
     };
   }, [ref, router.asPath]);
   return { activeId };
