@@ -12,7 +12,7 @@ const nextConfig = {
     remotePatterns: [
       {
         protocol: "https",
-        hostname: "files.roy-dev.tk",
+        hostname: "files.roy-dev.work",
       },
       {
         protocol: "https",
